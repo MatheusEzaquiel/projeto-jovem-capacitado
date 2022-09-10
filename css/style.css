@@ -1,0 +1,7 @@
+/*Alterações do Carrossel*/
+.container-fluid{
+    padding: 0;
+}
+#carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item{
+    height: 70vh;
+}
