@@ -42,12 +42,12 @@
         <form action="" method="post" class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Nome</label>
-                <input name="nome-candidato" type="text" class="form-control" id="inputEmail4" placeholder="Nome Completo">
+                <input name="nome-candidato" type="text" class="form-control" id="inputEmail4" placeholder="Nome Completo" required>
             </div>
 
             <div class="col-md-6">
                 <label for="exampleDataList" class="form-label">Cidade</label>
-                <input name="cidade-candidato" class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Sua Cidade">
+                <input name="cidade-candidato" class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Sua Cidade" required>
                 <datalist id="datalistOptions">
                     <option value="Horizonte">
                     <option value="Pacajus">
@@ -58,17 +58,17 @@
 
             <div class="col-md-6">
                 <label for="inputAddress" class="form-label">Telefone para contato</label>
-                <input name="telefone-candidato" type="text" class="form-control" id="inputAddress" placeholder="85900000000">
+                <input name="telefone-candidato" type="text" class="form-control" id="inputAddress" placeholder="85900000000" required>
             </div>
 
             <div class="col-md-6">
                 <label for="inputAddress" class="form-label">Whatsapp</label>
-                <input name="whats-candidato" type="text" class="form-control" id="inputAddress" placeholder="85900000000">
+                <input name="whats-candidato" type="text" class="form-control" id="inputAddress" placeholder="85900000000" required>
             </div>
 
             <div class="col-md-8">
                 <label for="inputState" class="form-label">Situação Profissional</label>
-                <select name="situacao-emprego-candidato" id="inputState" class="form-select">
+                <select name="situacao-emprego-candidato" id="inputState" class="form-select" required>
                     <option selected>Selecione</option>
                     <option value="1">Em busca de emprego</option>
                     <option value="2">Empregado</option>
@@ -80,7 +80,7 @@
 
             <div class="col-md-4">
                 <label for="inputZip" class="form-label">Idade</label>
-                <input name="idade-candidato" type="number" class="form-control" id="inputZip" max="90" min="6">
+                <input name="idade-candidato" type="number" class="form-control" id="inputZip" max="90" min="6" required>
             </div>
 
             <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end">
